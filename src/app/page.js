@@ -1,103 +1,55 @@
+import Link from "next/link";
 import Image from "next/image";
-
-export default function Home() {
+import miroir from "../../public/images/miroir-eau.jpg"
+import maitre from "../../public/images/maitre-ayivi.jpg"
+export default function Accueil() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <main className="mt-20 text-center">
+      {/* <div className="relative border-5 border-blue-500">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+              src={miroir}
+              alt="le miroir d'eau de Bordeaux"
+              className="border-4 border-pink-600 mask-b-from-20% mask-b-to-80% saturate-200 w-full text-3xl"
+              />
+
+      </div> */}
+      <div>
+        <section className="relative border-2 border-transparent bg-[url('../../public/images/miroir-eau.jpg')] bg-cover bg-center h-200 saturate-200">
+          <h2 className="bg-gray-50/50 py-2 w-1/2 text-3xl sm:text-4xl xl:text-5xl mt-110  text-gray-900 text-left font-bold md:w-1/2">Votre partenaire légal pour chaque étape de votre carrière.</h2>
+          <h3 className="mt-10 text-2xl sm:text-3xl xl:text-4xl text-left text-gray-900 text-semibold">Offrez vous une vie plus juste avec un avocat qui met en avant l'humain.
+          </h3>
+          <div className="relative grid h-150 grid-cols-2 content-end gap-4 mb-10">
+          </div>
+        </section>
+      </div>
+
+      <div className="h-full flex justify-center bg-[#fefce8] border-3">
+        <div className="w-2/3 p-20 text-justify">
+          <div className="text-2xl mb-5">
+            <h3 className="text-3xl font-[Geist] font-semibold mb-6 ">Pour vous représenter</h3>
+            <p className="font-[Geist]"> d’un xxx et xx obtenu à l’Université xx, Maître Ugo AYIVI est inscrit au Barreau de xx.</p>
+          </div>
+          <div className="text-2xl mb-4 font-[Geist]">
+            Après une première expérience en juridiction au Tribunal judiciaire de xx, il a débuté son activité professionnelle au sein d'un cabinet pénaliste xx de renom, dont ceux de xx. Ces premières expériences lui ont permis d’acquérir de solides compétences dans la gestion de problématiques juridiques complexes.
+          </div>
+          {/* <div className="text-2xl mb-4">
+            Maître Ugo AYIVI intervient principalement en droit social, tant pour défendre les mis en cause à tous les stades de la procédure que pour assister les victimes en entreprises.
+          </div>
+          <div className="text-2xl mb-4">
+          Passionné par la défense pénale et l’art oratoire, il a été élu Premier Secrétaire de la Conférence du stage du barreau de Versailles pour l’année 2023.
+          Rompu à l’exercice de la plaidoirie et fort de son expérience, il saura vous accompagner avec pugnacité, efficacité, professionnalisme et humanité devant toutes les juridictions françaises.
+        </div> */}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src={maitre}
+            alt="Maitre AYIVI Ugo"
+            className="my-10 w-90 rounded-lg"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        </div>
+      </div>
+
+
+    </main >
   );
 }
