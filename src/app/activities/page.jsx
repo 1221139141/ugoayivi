@@ -11,7 +11,7 @@ function page() {
             </h3>
           </div>
           <div className="text-2xl mb-4">
-            <h2>
+            <h2 className="font-semibold">
               Droit social:
             </h2>
             Maître AYIVI intervient aussi bien au niveau
@@ -24,7 +24,7 @@ function page() {
             fiscalité de la transaction).
           </div>
           <div className="text-2xl mb-4">
-            <h2>
+            <h2 className="font-semibold">
               Droit civil et commercial:
             </h2>
             Que ce soit devant les juridictions
@@ -33,7 +33,7 @@ function page() {
             intérêts.
           </div>
           <div className="text-2xl mb-4">
-            <h2>
+            <h2 className="font-semibold">
               Droit de la famille :
             </h2>
             Que ce soit à l&apos;amiable ou devant le juge
