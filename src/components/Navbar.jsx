@@ -15,7 +15,7 @@ function Navbar({monTitre}) {
             <Link href="/activities" className="mx-2 text-gray-900 hover:text-yellow-600">Domaines d&apos;activité</Link>
           </li>
           <li>
-            <Link href="/plaidoiries" className="mx-2 text-gray-900 hover:text-yellow-600">Mes plaidoiries</Link>
+            <Link href="/contact" className="mx-2 text-gray-900 hover:text-yellow-600">Contact</Link>
           </li>
         </ul>
       </nav>
