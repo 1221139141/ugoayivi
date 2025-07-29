@@ -1,6 +1,5 @@
 import Image from "next/image";
 import maitre from "../../public/images/maitre-ayivi.jpg"
-import Click from "../components/Click";
 
 export default function Accueil({ monTitre }) {
   return (
