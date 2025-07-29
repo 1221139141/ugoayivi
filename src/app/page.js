@@ -9,7 +9,6 @@ export default function Accueil({ monTitre }) {
         <section className="relative border-2 border-transparent bg-[url('../../public/images/miroir-eau.jpg')] bg-cover bg-center h-200 saturate-200">
           <h2 className="bg-gray-50/50 py-2 w-1/2 text-3xl sm:text-4xl xl:text-5xl mt-110  text-gray-900 text-left font-bold md:w-1/2">Votre partenaire légal pour chaque étape de votre carrière.</h2>
           <h3 className="mt-10 text-2xl sm:text-3xl xl:text-4xl text-left text-gray-900 text-semibold">Offrez vous une vie plus juste avec un avocat qui met en avant l&apos;humain.</h3>
-          <Click monTitre="Il est où le plan numero 1 pacs" />
           <div className="relative grid h-150 grid-cols-2 content-end gap-4 mb-10">
           </div>
         </section>

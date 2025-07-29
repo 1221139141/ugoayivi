@@ -18,10 +18,6 @@ function Navbar({monTitre}) {
           <li>
             <Link href="/plaidoiries" className="mx-2 text-gray-900 hover:text-yellow-600">Mes plaidoiries</Link>
           </li>
-          <li>
-            <Click monTitre="l'autre qui voulait juste un bebe !"/>
-            <Click monTitre="l'autre qui voulait juste un bebe !"/>
-          </li>
         </ul>
       </nav>
     </div>
