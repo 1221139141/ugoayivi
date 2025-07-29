@@ -7,7 +7,7 @@ function page() {
         <div className="w-2/3 p-20 text-justify">
           <div className="text-2xl mb-5">
             <h3 className="text-3xl font-[Geist] font-semibold mb-6 ">
-              Domaines d’activité :
+              Domaines d&apos;activité :
             </h3>
           </div>
           <div className="text-2xl mb-4">
@@ -15,7 +15,7 @@ function page() {
               Droit social:
             </h2>
             Maître AYIVI intervient aussi bien au niveau
-            conseil qu’au niveau contentieux, aussi bien du côté salarié que
+            conseil qu&apos;au niveau contentieux, aussi bien du côté salarié que
             du côté employeur et vous accompagne tout au long de la
             relation de travail (contrat de travail, exécution du contrat de
             travail, rupture du contrat de travail, vie sociale, problématiques
@@ -29,14 +29,14 @@ function page() {
             </h2>
             Que ce soit devant les juridictions
             civiles ou commerciales, Maître AYIVI usera de son haut niveau
-            d’expertise et de rigueur en la matière pour défendre vos
+            d&apos;expertise et de rigueur en la matière pour défendre vos
             intérêts.
           </div>
           <div className="text-2xl mb-4">
             <h2>
               Droit de la famille :
             </h2>
-            Que ce soit à l’amiable ou devant le juge
+            Que ce soit à l&apos;amiable ou devant le juge
             contentieux, Maître AYIVI vous accompagnera dans vos
             démarches familiale (divorce, droit de garde, succession).
           </div>
