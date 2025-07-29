@@ -7,7 +7,7 @@ export default function Footer() {
     <div>
       <p className="mb-3 text-white text-lg font-semibold">Explorer</p>
       <ul className="space-y-1">
-        <li className="text-zinc-300">Mon cursus</li>
+        <li className="text-zinc-300">Domaine d&apos;activités</li>
         <li className="text-zinc-300">Accueil</li>
       </ul>
     </div>
@@ -43,10 +43,10 @@ export default function Footer() {
     <div>
       <p className="mb-3 text-yellow-500 text-lg font-semibold">Contact</p>
       <ul className="space-y-1">
-        <li className="text-zinc-300">2 Allée d'Orléans</li>
+        <li className="text-zinc-300">2 Allée d&apos;Orléans</li>
         <li className="text-zinc-300">33000 BORDEAUX</li>
-        <li className="text-zinc-300">contact@ugoayivi.fr</li>
-        <li className="text-zinc-300 text-yellow-600">+335 XX XX XX XX</li>
+        <li className="text-zinc-300">ugoayivi@gmail.com</li>
+        <li className="text-zinc-300 text-yellow-600">+335 56 23 87 20</li>
       </ul>
     </div>
 </div>
