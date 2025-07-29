@@ -46,7 +46,7 @@ export default function Footer() {
         <li className="text-zinc-300">2 Allée d&apos;Orléans</li>
         <li className="text-zinc-300">33000 BORDEAUX</li>
         <li className="text-zinc-300">ugoayivi@gmail.com</li>
-        <li className="text-zinc-300 text-yellow-600">+335 56 23 87 20</li>
+        <li className="text-zinc-300">+335 56 23 87 20</li>
       </ul>
     </div>
 </div>
