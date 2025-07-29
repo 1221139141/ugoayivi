@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Click from "../components/Click"
 
 function Navbar({monTitre}) {
   return (
