@@ -14,8 +14,17 @@ export default function Accueil({ monTitre }) {
       </div>
 
       <div className="h-full flex justify-center bg-[#fefce8] border-3">
-        <div className="w-2/3 p-20 text-justify">
+        <div className=" p-20 text-justify">
           <div className="text-2xl mb-5">
+
+            <div className="flex justify-center">
+          <Image
+            src={maitre}
+            alt="Maitre Ugo AYIVI"
+            className="my-10 w-90 rounded-lg"
+          />
+        </div>
+
             <h3 className="text-3xl font-[Geist] font-semibold mb-6 ">Maître AYIVI est titulaire d&apos;un Master II droit des affaires de
               Aix-Marseille</h3>
             <p className="font-[Geist]">Installé depuis plusieurs années à Bordeaux, les juridictions bordelaises et
@@ -43,13 +52,7 @@ export default function Accueil({ monTitre }) {
             accompagner tout le long de vos démarches juridiques.
           </div>
         </div>
-        <div className="">
-          <Image
-            src={maitre}
-            alt="Maitre AYIVI Ugo"
-            className="my-10 w-90 rounded-lg"
-          />
-        </div>
+
       </div>
 
 
